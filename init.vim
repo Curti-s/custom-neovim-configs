@@ -7,6 +7,7 @@ call plug#begin()
   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
   Plug 'https://github.com/tomasr/molokai.git'
   Plug 'sheerun/vim-polyglot'
+  Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
 " Language Client
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
